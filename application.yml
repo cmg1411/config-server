@@ -11,7 +11,7 @@ resilience4j.bulkhead:
 resilience4j.thread-pool-bulkhead:
   instances:
     bulkheadB:
-      maxThreadPoolSize: 25
+      maxThreadPoolSize: 30
       coreThreadPoolSize: 10
       queueCapacity: 10
       keep-alive-duration: 3000

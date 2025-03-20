@@ -6,7 +6,7 @@ resilience4j.bulkhead:
     instances:
         bulkheadA:
           maxConcurrentCalls: 1
-          maxWaitDuration: 60000
+          maxWaitDuration: 600000
 
 resilience4j.thread-pool-bulkhead:
   instances:

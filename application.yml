@@ -16,3 +16,13 @@ resilience4j.thread-pool-bulkhead:
       queueCapacity: 10
       keep-alive-duration: 3000
       writableStackTraceEnabled: true
+
+
+bucket4j:
+  version: 1
+  capacity: 5
+  refill:
+    period:
+      second: 10
+    token: 3
+    

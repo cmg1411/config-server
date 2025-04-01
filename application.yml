@@ -18,7 +18,7 @@ resilience4j.thread-pool-bulkhead:
       writableStackTraceEnabled: true
 
 
-bucket4j:
+bucket4j.custom:
   version: 1
   capacity: 5
   refill:
